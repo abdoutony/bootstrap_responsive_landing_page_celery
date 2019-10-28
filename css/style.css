@@ -1,0 +1,144 @@
+html{
+  scroll-behavior: smooth;
+}
+body{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6{font-weight: 300 !important}
+.fs20{font-size:20px !important}
+.fs30{font-size:30px !important}
+.header{
+	position: relative;
+	overflow: hidden;
+	height: 550px;
+	background-image: url("../images/bg1.jpg");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	z-index: 1
+}
+.navstyle{
+	z-index: 99;
+  	left: 1px;
+    position: fixed;
+    padding: 40px;
+    background: none !important;
+    transition-duration: .5s;
+  }
+
+.upper_nav1{
+
+
+  left: 0px;
+  position: fixed;
+  padding: 20px;
+  background-color: #16480a !important;
+  transition-duration: .5s;
+  z-index: 99;
+ }
+
+ .rowwelcome{
+ 	position: absolute;
+    margin-top: 180px;
+    left: 3%;
+ }
+ .rowwelcome h1{
+  max-width: 600px;
+ 	font-size: 4rem;
+    font-weight: 300;
+    z-index: 3;
+    color: aliceblue;
+ }
+
+ .rowwelcome h1 span{
+  font-weight: 500
+ }
+
+ .rowbutton{
+    position: absolute;
+    z-index: 4;
+    top: 370px;
+    width: 100%;
+    padding-left: 20px;
+    padding-top: 0px;
+ }
+ .rowbutton a{
+    text-align: center;
+    text-decoration: none;
+    font-weight: 500;
+      width: 320px;
+    padding: 10px;
+    border-radius: 30px;
+    border: none;
+    font-size: 1.5rem;
+ }
+
+  
+  .overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left:0;
+    z-index: 1;
+    background-color: #28a745;
+    opacity: 0.4;
+   }
+
+   .upper_content{
+   	margin-top: 100px;
+   }
+
+   .moneybill{
+   	font-size: 80px;
+   	color: #16480a;
+   }
+   .colicon{
+   	text-align: center;
+   }
+
+   .celeryimg{
+   	height: 400px;
+   	background-image:url('../images/bg1.jpg');
+   	background-size: 100% 100%;
+   	background-repeat: no-repeat;
+   }
+
+   .body_content{
+   	margin-top:100px;
+   }
+
+   .liste2 ul{
+       list-style: none;
+   }
+
+   .liste2 ul li:before{
+
+  content: '';
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+  background-size: 15px;
+  background-image: url("../images/ok-mark.png");
+  background-repeat: no-repeat;
+  margin-right: 10px;
+  margin-top: 5px;
+   }
+
+   .liste2 ul li{
+    font-family: opensans;
+     font-size: 18px;
+    margin-bottom: 30px;
+    color: #737373;
+    font-weight: 300;
+   }
+
+   .footer{
+    padding-top: 20px;
+   	margin-top: 200px;
+   	height: 100px;
+   	background-color: #16480a;
+   	bottom: 0;
+   }
